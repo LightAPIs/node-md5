@@ -6,7 +6,7 @@ module.exports = {
   output: {
     path: resolve('./dist'),
     filename: 'md5-bundle.js',
-    // libraryTarget: 'var',
-    // library: 'MD5',
+    libraryTarget: 'this',
+    library: 'MD5',
   },
 };
